@@ -1,0 +1,9 @@
+{
+  "name": "codereview-skills",
+  "version": "0.1.0",
+  "description": "Reusable CodeReview workflows for context, finding triage, repair verification, OCR rules, and full-file scans",
+  "author": {
+    "name": "Full Stack Skills"
+  },
+  "license": "Apache-2.0"
+}
