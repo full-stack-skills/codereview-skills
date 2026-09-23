@@ -30,7 +30,7 @@ license: Apache-2.0
 
 ## 不适用
 
-PR、分支、单提交和普通工作区差异优先使用官方 `open-code-review`；提交前用户授权与暂存快照使用插件 `codereview` harness；可执行依赖/凭据检查仍由 CodeGuard 完成。
+PR、分支、单提交和普通工作区差异优先使用官方 `open-code-review`；提交前用户授权与暂存快照使用插件专属 `codereview-harness`；可执行依赖/凭据检查仍由 CodeGuard 完成。
 
 ## Gotchas / 易错点
 

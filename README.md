@@ -16,7 +16,7 @@ npx skills add alibaba/open-code-review --skill open-code-review-delegate
 | `codereview-rules` | 用户要制定项目专属 OCR 审查规则 | 可验证的规则变更与匹配样例 |
 | `codereview-scan` | 无合适 diff，需审计目录或仓库 | 明确范围、覆盖限制的全文件扫描报告 |
 
-提交前的选择、会话静默、候选快照和证据状态由 [`codereview-plugin`](https://github.com/full-stack-plugins/codereview-plugin) 的本地 harness 管理。手动运行上游 OCR 技能不会自动继承插件的提交授权；它们的工作区模式也不等同于“仅暂存内容”。报告始终是建议，不代替 CodeGuard 的可执行检查或 FlowGuard 的流程裁决。
+提交前的选择、会话静默、候选快照和证据状态由 [`codereview-plugin`](https://github.com/full-stack-plugins/codereview-plugin) 的插件专属 `codereview-harness` 管理。手动运行上游 OCR 技能不会自动继承插件的提交授权；它们的工作区模式也不等同于“仅暂存内容”。报告始终是建议，不代替 CodeGuard 的可执行检查或 FlowGuard 的流程裁决。
 
 独立安装只提供技能知识，不安装 OCR CLI，也不保证宿主插件已加载。实际安装、模型调用和跨宿主运行需要各自验证。
 
