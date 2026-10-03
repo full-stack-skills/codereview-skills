@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Review Rules"
+  short_description: "当用户要为项目制定、调整或排查 Open Code Review 的专属审查规则时使用；验证规则文件、路径命中和内置规则合并…"
+  default_prompt: "使用 $codereview-rules，围绕“当用户要为项目制定、调整或排查 Open Code Review 的专属审查规则时使用；验证规则文件、路径命中和内置规则合并”处理我的当前需求。"

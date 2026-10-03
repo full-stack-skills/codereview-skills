@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Review Context Impact"
+  short_description: "当代码审查需要结合需求、OpenSpec、调用方或跨模块影响判断语义风险时使用；生成有出处的简短审查背景和影响清单，不自行批准…"
+  default_prompt: "使用 $codereview-context-impact，围绕“当代码审查需要结合需求、OpenSpec、调用方或跨模块影响判断语义风险时使用；生成有出处的简短审查背景和影响清单，不自行批准”处理我的当前需求。"

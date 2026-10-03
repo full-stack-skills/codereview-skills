@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Review Fix Verify"
+  short_description: "用户明确要求修复 CodeReview 已核实的问题并验证时使用；实施最小修复、运行针对性测试、在内容变化后重新审查，不自动提…"
+  default_prompt: "使用 $codereview-fix-verify，围绕“用户明确要求修复 CodeReview 已核实的问题并验证时使用；实施最小修复、运行针对性测试、在内容变化后重新审查，不自动提”处理我的当前需求。"

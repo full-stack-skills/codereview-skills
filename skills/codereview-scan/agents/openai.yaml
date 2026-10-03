@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Review Scan"
+  short_description: "当用户要审计旧仓库、指定目录或无合适 Git diff 的完整文件时使用 OCR scan；先确定范围、模型与预算，报告覆盖和…"
+  default_prompt: "使用 $codereview-scan，围绕“当用户要审计旧仓库、指定目录或无合适 Git diff 的完整文件时使用 OCR scan；先确定范围、模型与预算，报告覆盖和”处理我的当前需求。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Review Finding Triage"
+  short_description: "当 OCR 或宿主代码审查产生可疑、定位不准、相互矛盾或覆盖不完整的发现时使用；核实每条证据并标记真实问题、误报或待验证，不把…"
+  default_prompt: "使用 $codereview-finding-triage，围绕“当 OCR 或宿主代码审查产生可疑、定位不准、相互矛盾或覆盖不完整的发现时使用；核实每条证据并标记真实问题、误报或待验证，不把”处理我的当前需求。"
